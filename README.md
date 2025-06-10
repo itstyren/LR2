@@ -1,5 +1,5 @@
 # Learning with Reputation Reward (LR2)
-Learning with Reputation Reward (LR2) is a multi-agent reinforcement learning (MARL) method designed to foster cooperative behavior  through rewards shaping based on bottom-up reputation. This repository contains the implementation of LR2, based on the paper: Bottom-Up Reputation Promotes Cooperation with Multi-Agent Reinforcement Learning, AAMAS2025
+Learning with Reputation Reward (LR2) is a multi-agent reinforcement learning (MARL) method designed to foster cooperative behavior  through rewards shaping based on bottom-up reputation. This repository contains the implementation of LR2, based on the paper: [Bottom-Up Reputation Promotes Cooperation with Multi-Agent Reinforcement Learning](https://dl.acm.org/doi/10.5555/3709347.3743810), AAMAS2025
 
 ## Installation
 This repository is built using PyTorch and supports both CPU and GPU environments. The instructions below are tailored for a Linux environment but should work on other operating systems as well.
@@ -55,4 +55,15 @@ To render the training process, add the `--use_render` flag. The rendered video 
 
 
 ## Paper Citation
-Citation details coming soon.
+```bibtex
+@inproceedings{ren2025bottom,
+author = {Ren, Tianyu and Yao, Xuan and Li, Yang and Zeng, Xiao-Jun},
+title = {Bottom-Up Reputation Promotes Cooperation with Multi-Agent Reinforcement Learning},
+year = {2025},
+address = {Richland, SC},
+booktitle = {Proceedings of the 24th International Conference on Autonomous Agents and Multiagent Systems},
+pages = {1745–1754},
+numpages = {10},
+series = {AAMAS '25}
+}
+```
